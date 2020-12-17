@@ -46,7 +46,7 @@ namespace grafikprogramm
     /// <param name="x"></param>
     /// <param name="y"></param>
     /// <returns></returns>
-    private bool IsRightToLine(Point p1, Point p2, int x, int y)
+    public bool IsRightToLine(Point p1, Point p2, int x, int y)
     {
       int v1X = p2.X - p1.X;
       int v1Y = p2.Y - p1.Y;
